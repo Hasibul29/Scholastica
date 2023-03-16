@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>home</class>
+ <widget class="QMainWindow" name="home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1178</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{background-image: url(:/img/img/1772226 (1).jpg);}
+QPushButton:pressed{
+	background-color: rgb(255, 212, 39);
+   border-radius:6px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>320</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:black;
+color:rgb(255, 215, 52);
+	font: 20pt &quot;Comic Sans MS&quot;;
+}
+QPushButton{
+border:black;
+backgroud:blue;
+font-szie:30px;
+}
+QPushButton:pressed{
+	
+	background-color: rgb(255, 170, 0);
+   border-radius:6px;
+}
+QPushButton:hover{
+	
+	background-color:rgb(170, 0, 0);
+   border-radius:6px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Guardian</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_tutor">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>320</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:black;
+color:rgb(255, 215, 52);
+	font: 20pt &quot;Comic Sans MS&quot;;
+}
+QPushButton{
+border:black;
+backgroud:blue;
+font-szie:30px;
+}
+QPushButton:pressed{
+	
+	background-color: rgb(255, 170, 0);
+   border-radius:6px;
+}
+QPushButton:hover{
+	
+	background-color:rgb(170, 0, 0);
+   border-radius:6px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Tutor</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_icon">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>50</y>
+      <width>231</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/img/img/icon.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1178</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

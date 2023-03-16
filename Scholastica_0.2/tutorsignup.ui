@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tutorsignup</class>
+ <widget class="QDialog" name="tutorsignup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1107</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Signup</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{background-image: url(:/img/img/1772226 (1).jpg);}
+QMessageBox{
+    font: 87 10pt &quot;Segoe UI Black&quot;;
+}
+QPushButton:pressed{
+	background-color: rgb(255, 212, 39);
+   border-radius:6px;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>150</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 10pt &quot;Segoe UI Black&quot;;
+text-decoration: underline;
+font:87 15pt &quot;Segoe UI Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sign Up as a Tutor</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>270</y>
+     <width>329</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="lineEdit_phone">
+      <property name="styleSheet">
+       <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_inst">
+      <property name="styleSheet">
+       <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_class">
+      <property name="styleSheet">
+       <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_signup">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>600</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 13pt &quot;Segoe UI Black&quot;;
+border:black;
+}
+QPushButton:pressed{
+	
+	background-color: rgb(255, 170, 0);
+   border-radius:6px;
+}
+QPushButton:hover{
+	
+	background-color:rgb(170, 0, 0);
+   border-radius:6px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>10</y>
+     <width>201</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/img/img/icon.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>270</y>
+     <width>172</width>
+     <height>134</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_phone">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Phone</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_ins">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Institution</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_class">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Class/Dept.</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>470</y>
+     <width>252</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QRadioButton" name="radioButton">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Male</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_2">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Female</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>410</y>
+     <width>341</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Date of Birth</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="styleSheet">
+       <string notr="true">background:black;
+color:rgb(255, 215, 52);
+font: 87 10pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>520</y>
+     <width>608</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QRadioButton" name="radioButton_4">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>National Curriculam</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_3">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>English Medium</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>271</y>
+     <width>331</width>
+     <height>238</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_name">
+        <property name="styleSheet">
+         <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_city">
+        <property name="styleSheet">
+         <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_group">
+        <property name="styleSheet">
+         <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_pass">
+        <property name="styleSheet">
+         <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_un2">
+      <property name="styleSheet">
+       <string notr="true">*{
+background:black;
+color:rgb(255, 197, 20);
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>271</y>
+     <width>150</width>
+     <height>228</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_name">
+        <property name="styleSheet">
+         <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_city">
+        <property name="styleSheet">
+         <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>City</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_group">
+        <property name="styleSheet">
+         <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Group</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_pass">
+        <property name="styleSheet">
+         <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_un2">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Username</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>10</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{image: url(:/img/img/backbutoonyblack.jpg);
+border:yellow}
+QPushButton:pressed{
+	
+	background-color: rgb(255, 170, 0);
+   border-radius:6px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

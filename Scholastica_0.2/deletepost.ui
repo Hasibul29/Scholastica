@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deletepost</class>
+ <widget class="QDialog" name="deletepost">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1107</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Manage</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{background-image: url(:/img/img/inside.jpg);}
+QMessageBox{
+    font: 87 10pt &quot;Segoe UI Black&quot;;
+}
+QPushButton:pressed{
+	background-color: rgb(255, 212, 39);
+   border-radius:6px;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>120</y>
+     <width>381</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 10pt &quot;Segoe UI Black&quot;;
+text-decoration: underline;
+font:87 15pt &quot;Segoe UI Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Delete Post and Requests</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_delete">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>430</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+background:black;
+color:white;
+font: 87 13pt &quot;Segoe UI Black&quot;;
+border:black;
+}
+QPushButton:pressed{
+	
+	background-color: rgb(182, 11, 42);
+   border-radius:6px;
+}
+QPushButton:hover{
+	
+	background-color: grey;
+   border-radius:6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>0</y>
+     <width>201</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/img/img/icon.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bbn">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>0</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{image: url(:/img/img/backbutoonyblack.jpg);
+
+border:white}
+QPushButton:pressed{
+	
+	background-color: rgb(182, 11, 42);
+   border-radius:6px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>240</y>
+     <width>329</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="lineEdit_ac">
+      <property name="styleSheet">
+       <string notr="true">*{
+background:black;
+color:white;
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_un">
+      <property name="styleSheet">
+       <string notr="true">*{
+background:black;
+color:white;
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_pass">
+      <property name="styleSheet">
+       <string notr="true">*{
+background:black;
+color:white;
+font: 87 15pt &quot;Segoe UI Black&quot;;
+border:black;
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>240</y>
+     <width>255</width>
+     <height>134</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_name">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Apply Code</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_name_3">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Username</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_name_2">
+      <property name="styleSheet">
+       <string notr="true">font: 87 15pt &quot;Segoe UI Black&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

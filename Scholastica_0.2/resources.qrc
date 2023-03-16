@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/1772226 (1).jpg</file>
+        <file>img/icon.png</file>
+        <file>img/icon1.png</file>
+        <file>img/89349733_576170769644554_5345067871951126528_n.jpg</file>
+        <file>img/inside.jpg</file>
+        <file>img/request.png</file>
+        <file>img/update.png</file>
+        <file>img/logout2.png</file>
+        <file>img/report2.png</file>
+        <file>img/apply.png</file>
+        <file>img/tutorbg.jpg</file>
+        <file>img/backbutoonyblack.jpg</file>
+        <file>img/pngflow.com.png</file>
+        <file>img/star.png</file>
+        <file>img/star - Copy.png</file>
+        <file>img/star - logo.png</file>
+        <file>img/meaw.png</file>
+        <file>img/imageonline-co-transparentimage (3).png</file>
+    </qresource>
+</RCC>
